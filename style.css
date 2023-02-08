@@ -1,0 +1,6 @@
+.header__brandLogo{
+max-width: 150px;
+height: 48px;
+display: block;
+object-fit: contain;
+}

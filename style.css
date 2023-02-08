@@ -1,6 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background: inherit !important;
+    max-width: 1128px !important;
+    height: 100% !important;
+    margin: 0 auto;
+}
+
 .header__brandLogo{
 max-width: 150px;
 height: 48px;
 display: block;
 object-fit: contain;
+}
+
+
+.nav{
+background-color: rgb(243, 217, 229);
+border-color: #fff;
+}
+
+.nav-link{
+    padding: 6px 12px;
+    text-decoration: none;
+    font-size: medium !important;
+    color:#502314;
 }

@@ -1,30 +1,58 @@
 *{
-    box-sizing: border-box;
-}
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        /*font-family: Flame-Regular;*/
+    }
+
 
 header{
-    background: inherit !important;
-    max-width: 1128px !important;
-    height: 100% !important;
-    margin: 0 auto;
-}
+        position: sticky;
+    }
 
-.header__brandLogo{
+.header_Logo{
 max-width: 150px;
 height: 48px;
 display: block;
 object-fit: contain;
 }
 
-
-.nav{
-background-color: rgb(243, 217, 229);
-border-color: #fff;
-}
+/*CSS para NAV1*/
 
 .nav-link{
     padding: 6px 12px;
     text-decoration: none;
     font-size: medium !important;
     color:#502314;
+}
+
+.nav-link :hover{
+    background-color: red;
+
+}
+
+
+/*CSS para NAV2*/
+
+nav{
+    background-color: #f5ebdc;
+    border-color: rgba(245, 235, 220, 0.6);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 0 rgba(44, 44, 49, 0.1);
+}
+
+nav a{
+    padding: 6px 12px;
+    text-decoration: none;
+    font-size: medium !important;
+    color:#502314;
+}
+
+
+/*CSS para CAROUSEL*/
+
+.carousel-item img{
+    width: 100%;
+    height: 37rem;
 }

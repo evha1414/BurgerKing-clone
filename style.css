@@ -2,9 +2,7 @@
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-        /*font-family: Flame-Regular;*/
     }
-
 
 header{
         position: sticky;
@@ -17,18 +15,29 @@ display: block;
 object-fit: contain;
 }
 
+header_Logo_a{
+    max-height: 52px;
+}
+
 /*CSS para NAV1*/
 
-.nav-link{
+.container-fluid{
+    background-color: #f5ebdc;
+}
+
+.navbar-nav{
+    background-color: #f5ebdc;
     padding: 6px 12px;
     text-decoration: none;
     font-size: medium !important;
     color:#502314;
 }
 
-.nav-link :hover{
-    background-color: red;
-
+.navbar-nav :hover{
+    color:#9c1010;
+    padding: 6px 6px;
+    background: rgba(194, 184, 169, 0.6);
+    border-radius: 30%;
 }
 
 
@@ -55,4 +64,80 @@ nav a{
 .carousel-item img{
     width: 100%;
     height: 37rem;
+}
+
+
+/*CSS para Footer*/
+
+@font-face {
+    font-family: 'flamesans';
+    src: url('./assets/fonts/flamesans-webfont.woff2') format('woff2'),
+         url('./assets/fonts/flamesans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'flamebold';
+    src: url('./assets/fonts/flamebold-webfont.woff2') format('woff2'),
+         url('./assets/fonts/flamebold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+footer{
+    background-color: #502314;
+}
+
+#logo{
+    width: 192px;
+    height: 23px;
+}
+
+#copyright{
+    font-family: "flamesans";
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    line-height: 31.02px;
+    letter-spacing: -0.41px;
+    line-height: 32px;
+}
+
+h5{
+    font-family: "flamebold";
+    letter-spacing: 1.5px;
+    font-size: 22px;
+    letter-spacing: -0.41px;
+    line-height: 32px;
+    text-transform: none;
+    margin-bottom: 24px !important;
+}
+
+p{
+    font-family: "flamesans";
+    font-size: 16px;
+    line-height: 45px;
+    letter-spacing: 0.1px;
+    line-height: 10px;
+}
+p a{
+    line-height: 1.43;
+    letter-spacing: -0.06;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p a:hover {
+color: #f72300 !important;
+}
+
+img{
+    width: 24px;
+    height: 24px;
+    border-style: none;
+    
+    overflow: clip;
 }
